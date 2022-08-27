@@ -1,0 +1,10 @@
+@media (min-width: 992px) { 
+    #carouselExampleIndicators{
+        height: 50vh;
+    }
+}
+#carouselExampleIndicators{
+    position: relative;
+}
+
+

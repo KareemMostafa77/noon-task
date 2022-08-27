@@ -1,0 +1,8 @@
+<owl-carousel-o [options]="customOptions">
+    <ng-template carouselSlide *ngFor="let item of categoriesData" >
+      <div class="slide">
+        <img src="{{baseCategoriesUrl+item.photo}}" alt="img 1">
+        <h6>{{item.name}}</h6>
+      </div>
+    </ng-template>
+</owl-carousel-o>

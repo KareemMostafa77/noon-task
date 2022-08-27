@@ -1,0 +1,52 @@
+.app-navbar{
+    width: 100%;
+    background-color: #feee00;
+    padding: 10px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.searchBar input{
+    margin: 0 20px;
+    width: 100%;
+    border: none;
+    padding: 7px;
+    border-radius: 5px;
+    margin: 0;
+}
+.navBarBtns .btn{
+    font-weight: 600;
+    font-size: 18px;
+}
+.navBarBtns .middleBtn{
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+}
+.app-categories {
+    background-color: #fbfaf3;
+}
+.category{
+    cursor: pointer;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+.category h6{
+    font-size: 16px !important;
+}
+.category:hover{
+    background-color: white;
+    box-shadow:  .5px .5px 1px gray , -.5px .5px 1px gray;
+}
+.categoriesMenu{
+    position: absolute;
+    z-index: 10;
+    left: 15px;
+}
+.list-group-item{
+    border: none;
+    padding: 5px;
+}
+.list-group-item:hover{
+    color: skyblue;
+    cursor: pointer;
+}

@@ -1,0 +1,93 @@
+<!-- Navbar -->
+<section class="app-navbar">
+  <div class="row align-items-center w-100 text-center">
+    <div class="col-12 col-lg-2 mb-2 mb-lg-0">
+      <div class="navbarLogo">
+        <img src="https://f.nooncdn.com/s/app/com/noon/design-system/logos/noon-logo-ar.svg" width="100px">
+      </div>
+    </div>
+    <div class="col-12 col-lg-6">
+      <div class="searchBar">
+        <input input='text' placeholder="أنت بتدور علي أيه ؟">
+      </div>
+    </div>
+    <div class="col-12 col-lg-4 ">
+      <div class="btn-group navBarBtns d-lg-block  d-none" role="group" aria-label="Basic example">
+        <button type="button" class="btn btn-transparent">English</button>
+        <button type="button" class="btn btn-transparent middleBtn"> تسجيل الدخول <i class="fa fa-user" aria-hidden="true"></i> </button>
+        <button type="button" class="btn btn-transparent"> عربة التسوق <i class="fa fa-shopping-cart" aria-hidden="true"> </i></button>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Categories Bar -->
+<section class="app-categories  px-3 d-lg-block  d-none">
+  <div class="container d-flex">
+      <div class="category" *ngFor="let item of categories">
+        <h6 class="mb-0"> {{item}} </h6>
+      </div>
+  </div>
+</section>
+<!-- static Categories menu -->
+<div class="row  w-100 text-right border categoriesMenu d-none bg-white">
+  <div class="col-2 p-4">
+    <div class="types">
+      <h6> الفئات</h6>
+      <ul class="list-group p-0 border-0">
+        <li class="list-group-item">تليفزيونات وأجهزة الستالايت والإكسسوارات</li>
+        <li class="list-group-item">جهزة اللابتوب والإكسسوارات</li>
+        <li class="list-group-item">أجهزة الصوت و الترفيه المنزلي</li>
+        <li class="list-group-item">ألعاب الفيديو</li>
+        <li class="list-group-item">ألعاب الفيديو</li>
+      </ul>
+    </div>
+  </div>
+  <div class="col-3 p-4">
+    <div class="brands">
+      <h6> افضل الماركات</h6>
+      <div class='row'>
+        <div class="col-3 p-0 m-2">
+          <div class="imageBrand w-100 border">
+            <img src="https://z.nooncdn.com/cms/pages/20210408/9852ea7d5c33973a1761053b129a047b/drop-brand-06.png" class="img-fluid">
+          </div>
+        </div>
+        
+        <div class="col-3 p-0 m-2">
+          <div class="imageBrand w-100 border">
+            <img src="https://z.nooncdn.com/cms/pages/20210410/2a23ead9569718f23f16e78305f07230/drop-brand-05.png" class="img-fluid">
+          </div>
+        </div>
+        <div class="col-3 p-0 m-2">
+          <div class="imageBrand w-100 border">
+            <img src="https://z.nooncdn.com/cms/pages/20210408/9852ea7d5c33973a1761053b129a047b/drop-brand-04.png" class="img-fluid">
+          </div>
+        </div>
+        <div class="col-3 p-0 m-2">
+          <div class="imageBrand w-100 border">
+            <img src="https://z.nooncdn.com/cms/pages/20210408/9852ea7d5c33973a1761053b129a047b/drop-brand-03.png" class="img-fluid">
+          </div>
+        </div>
+        <div class="col-3 p-0 m-2">
+          <div class="imageBrand w-100 border">
+            <img src="https://z.nooncdn.com/cms/pages/20210408/9852ea7d5c33973a1761053b129a047b/drop-brand-02.png" class="img-fluid">
+          </div>
+        </div>
+        <div class="col-3 p-0 m-2">
+          <div class="imageBrand w-100 border">
+            <img src="https://z.nooncdn.com/cms/pages/20210408/9852ea7d5c33973a1761053b129a047b/drop-brand-01.png" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-4 p-4">
+    <div class="navBaner1">
+      <img src="https://z.nooncdn.com/cms/pages/20210408/2792ffeaded707bd95f25bd124a83af9/ar_drop-01.png" class="img-fluid">
+    </div>
+  </div>
+  <div class="col-3 p-4">
+    <div class="navBaner2">
+      <img src="https://z.nooncdn.com/cms/pages/20210408/2792ffeaded707bd95f25bd124a83af9/ar_drop-02.png" class="img-fluid">
+    </div>
+  </div>
+</div>
